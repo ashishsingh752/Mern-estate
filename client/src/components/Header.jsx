@@ -17,7 +17,7 @@ export default function Header() {
             placeholder="search...."
             className="bg-transparent focus:outline-none w-24 sm:w-64"  // focus: outline-non , it remove the outline on the search box when we click to search something 
           />
-          <FaSearch className="text-slate-600" />
+          <FaSearch className="text-slate-600"/>
         </form>
         <ul className="flex gap-4">
           <Link to={'/Home'}>
