@@ -25,6 +25,7 @@ export default function SignIn() {
       dispatch(signInStart());
       const res = await fetch("/api/auth/signin", {
         method: "POST",
+        
         headers: {
           "Content-Type": "application/json",
         },
